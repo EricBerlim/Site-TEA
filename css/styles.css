@@ -1,4 +1,4 @@
-/* Gerais */
+/* Geral */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -16,7 +16,7 @@ p, li {
   font-size: 14px;
 }
 
-/* Navegação */
+/* Navbar */
 header, .navbar {
   background-color: #353D41;
 }
@@ -49,6 +49,13 @@ header, .navbar {
 
 .nav-item.active {
   border-bottom: 3px solid #FFF;
+}
+
+.navbar-nav:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: rgb(177, 6, 230);
 }
 
 /* Slider */
@@ -238,7 +245,7 @@ header, .navbar {
   background-color: rgb(177, 6, 230);
 }
 
-/* Portfólio */
+/* Projeto */
 .project-box {
   margin-bottom: 30px;
 }
@@ -248,7 +255,7 @@ header, .navbar {
   text-align: center;
 }
 
-#portfolio-area .filter-btn {
+#formas-area .filter-btn {
   color: #444;
   border: 1px solid #444;
   background-color: transparent;
@@ -261,7 +268,7 @@ header, .navbar {
   padding: 0 20px;
 }
 
-#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+#formas-area .filter-btn.active, #formas-area .filter-btn:hover {
   color: #FFF;
   border: 1px solid rgb(177, 6, 230);
   background-color: rgb(177, 6, 230);
@@ -551,7 +558,7 @@ header, .navbar {
   }
 
   /* Filtro */
-  #portfolio-area .filter-btn {
+  #formas-area .filter-btn {
     margin-bottom: 20px;
   }
 

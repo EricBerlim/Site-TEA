@@ -103,7 +103,7 @@ $( document ).ready(function() {
     $('#data-area').parallax({imageSrc: 'img/home.jpg'});
   }, 200);
 
-  // Filtro Portfólio
+  // Filtro Formas
   $('.filter-btn').on('click', function() {
 
     let type = $(this).attr('id');
@@ -112,12 +112,12 @@ $( document ).ready(function() {
     $('.main-btn').removeClass('active');
     $(this).addClass('active');
 
-    if(type == 'dsg-btn') {
-      eachBoxes('dsg', boxes);
-    } else if(type == 'dev-btn') {
-      eachBoxes('dev', boxes);
-    } else if(type == 'seo-btn') {
-      eachBoxes('seo', boxes);
+    if(type == 'triangle-btn') {
+      eachBoxes('triangle', boxes);
+    } else if(type == 'circle-btn') {
+      eachBoxes('circle', boxes);
+    } else if(type == 'square-btn') {
+      eachBoxes('square', boxes);
     } else {
       eachBoxes('all', boxes);
     }
@@ -154,7 +154,7 @@ $( document ).ready(function() {
 
     let btnId = $(this).attr('id');
 
-    if(btnId == 'about-menu') {
+    if(btnId == 'cores-menu') {
       scrollTo = aboutSection;
     } else if(btnId == 'services-menu') {
       scrollTo = servicesSection;
