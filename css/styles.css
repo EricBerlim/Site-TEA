@@ -51,12 +51,7 @@ header, .navbar {
   border-bottom: 3px solid #FFF;
 }
 
-.navbar-nav:hover {
-  text-decoration: none;
-  color: #FFF;
-  background-color: transparent;
-  border-color: rgb(177, 6, 230);
-}
+/* Fazer o hover dos ícones da Navbar */
 
 /* Slider */
 .container-fluid {
@@ -148,7 +143,7 @@ header, .navbar {
   margin-right: 15px;
 }
 
-/* Serviços */
+/* Service */
 .service-box {
   text-align: center;
   margin-bottom: 50px;
@@ -178,19 +173,7 @@ header, .navbar {
   padding: 0 40px;
 }
 
-.progressbar-text {
-  font-weight: bold;
-  font-size: 32px;
-}
-
-#data-area p {
-  color: #FFF;
-  text-align: center;
-  font-size: 26px;
-  margin-top: 20px;
-}
-
-/* Time */
+/* Card */
 .card-body {
   text-align: center;
 }
@@ -460,12 +443,8 @@ header, .navbar {
   .circle-box div {
     padding: 0 10px;
   }
-
-  #data-area p {
-    font-size: 16px;
-  }
   
-  /* Tipos */
+  /* Card */
   .card-title {
     font-size: 14px;
   }
