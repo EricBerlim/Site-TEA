@@ -18,7 +18,7 @@ p, li {
 
 /* Navbar */
 header, .navbar {
-  background-color: #353D41;
+  background-color: #148f33;
 }
 
 #nav-container {
@@ -43,6 +43,10 @@ header, .navbar {
   color: #FFF;
 }
 
+#navbar-links a:hover {
+  color: black;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 1rem .8rem;
 }
@@ -50,8 +54,6 @@ header, .navbar {
 .nav-item.active {
   border-bottom: 3px solid #FFF;
 }
-
-/* Fazer o hover dos ícones da Navbar */
 
 /* Slider */
 .container-fluid {
@@ -104,6 +106,10 @@ header, .navbar {
 /* Sobre */
 #about-area {
   background-color: #F9F9F9;
+}
+
+#formas-area img{
+  height: 300px;
 }
 
 .main-title {
@@ -228,7 +234,7 @@ header, .navbar {
   background-color: rgb(177, 6, 230);
 }
 
-/* Projeto */
+/* Class Project */
 .project-box {
   margin-bottom: 30px;
 }
@@ -257,7 +263,7 @@ header, .navbar {
   background-color: rgb(177, 6, 230);
 }
 
-/* E-mail */
+/* Newsletter */
 #news-area {
   text-align: center;
   background-color: #F9F9F9;
@@ -458,7 +464,7 @@ header, .navbar {
     padding: 50px 25px;
   }
 
-  /* E-mail */
+  /* Newsletter */
   #news-area p {
     width: 80%;
     margin-left: auto;
@@ -545,7 +551,7 @@ header, .navbar {
     width: 50%;
   }
 
-  /* E-mail */
+  /* Newsletter */
   #news-area .main-title {
     font-size: 24px;
   }
