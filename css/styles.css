@@ -18,7 +18,7 @@ p, li {
 
 /* Navbar */
 header, .navbar {
-  background-color: #148f33;
+  background-color: #444;
 }
 
 #nav-container {
@@ -43,8 +43,8 @@ header, .navbar {
   color: #FFF;
 }
 
-#navbar-links a:hover {
-  color: black;
+#navbar-links a:hover{
+  color: #b106e6;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -65,7 +65,7 @@ header, .navbar {
 }
 
 #mainSlider .carousel-caption {
-  top: 25%;
+  top: 30%;
 }
 
 #mainSlider .carousel-caption h2 {
@@ -73,15 +73,8 @@ header, .navbar {
   margin-bottom: 30px;
 }
 
-#mainSlider .carousel-caption p {
-  font-size: 22px;
-  font-weight: 300;
-  margin-bottom: 100px;
-  color: #FFF;
-}
-
 .main-btn {
-  background-color: rgb(177, 6, 230);
+  background-color: #b106e6;
   color: #FFF;
   text-transform: uppercase;
   width: 200px;
@@ -96,20 +89,11 @@ header, .navbar {
   text-decoration: none;
   color: #FFF;
   background-color: transparent;
-  border-color: rgb(177, 6, 230);
+  border-color: #b106e6;
 }
 
 .carousel-indicators .active {
-  background-color: rgb(177, 6, 230);
-}
-
-/* Sobre */
-#about-area {
-  background-color: #F9F9F9;
-}
-
-#formas-area img{
-  height: 300px;
+  background-color: #b106e6;
 }
 
 .main-title {
@@ -128,113 +112,7 @@ header, .navbar {
   left: 42.5%;
 }
 
-.about-title {
-  font-size: 17px;
-  color: #444;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-#about-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-#about-list li {
-  line-height: 30px;
-}
-
-#about-list i {
-  color: rgb(177, 6, 230);
-  margin-right: 15px;
-}
-
-/* Service */
-.service-box {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.service-box i, .service-box h4 {
-  transition: .5s;
-}
-
-.service-box i {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #444;
-}
-
-.service-box h4 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.service-box:hover > i, .service-box:hover > h4 {
-  color: rgb(177, 6, 230);
-}
-
-/* Dados */
-.circle-box div {
-  padding: 0 40px;
-}
-
-/* Card */
-.card-body {
-  text-align: center;
-}
-
-/* Fale conosco */
-#apply-area {
-  height: 500px;
-}
-
-#apply-area .container-fluid, #apply-area .row {
-  height: 100%;
-}
-
-#apply-area .apply-box {
-  padding: 70px 50px;
-  text-align: center;
-}
-
-#company-img {
-  background-image: url('../img/empresa.jpg');
-  background-size: cover;
-  height: 100%;
-}
-
-#pattern-img h4, #pattern-img p {
-  color: #FFF;
-}
-
-#pattern-img h4 {
-  margin-top: 8%;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-#pattern-img p {
-  margin-bottom: 20px;
-}
-
-#apply-btn {
-  display: block;
-  height: auto;
-  width: 180px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  background-color: transparent;
-  border-color: #FFF;
-}
-
-#apply-btn:hover {
-  border-color: rgb(177, 6, 230);
-  background-color: rgb(177, 6, 230);
-}
-
-/* Class Project */
+/* Filtro */
 .project-box {
   margin-bottom: 30px;
 }
@@ -244,7 +122,7 @@ header, .navbar {
   text-align: center;
 }
 
-#formas-area .filter-btn {
+#tipo-area .filter-btn {
   color: #444;
   border: 1px solid #444;
   background-color: transparent;
@@ -257,13 +135,17 @@ header, .navbar {
   padding: 0 20px;
 }
 
-#formas-area .filter-btn.active, #formas-area .filter-btn:hover {
+#tipo-area .filter-btn.active, #tipo-area .filter-btn:hover {
   color: #FFF;
-  border: 1px solid rgb(177, 6, 230);
-  background-color: rgb(177, 6, 230);
+  border: 1px solid #b106e6;
+  background-color: #b106e6;
 }
 
-/* Newsletter */
+.img-fluid {
+  height: 100%;
+}
+
+/* Novo Jogo */
 #news-area {
   text-align: center;
   background-color: #F9F9F9;
@@ -274,22 +156,11 @@ header, .navbar {
   margin-bottom: 40px;
 }
 
-#email-input {
-  border-radius: 0;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border: 1px solid rgb(177, 6, 230);
-  display: inline;
-  box-sizing: border-box;
-  width: 40%;
-  height: 40px;
-}
-
 #news-btn {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  border: 1px solid rgb(177, 6, 230);
-  background-color: rgb(177, 6, 230);
+  border: 1px solid #b106e6;
+  background-color: #b106e6;
   color: #FFF;
   text-transform: uppercase;
   height: 40px;
@@ -301,12 +172,12 @@ header, .navbar {
 
 #news-btn:hover {
   background-color: #FFF;
-  color: rgb(177, 6, 230);
+  color: #b106e6;
 }
 
 /* Chamar Ação */
 #call-area {
-  background-color: rgb(177, 6, 230);
+  background-color: #b106e6;
   text-transform: uppercase;
 }
 
@@ -332,7 +203,7 @@ header, .navbar {
 
 #call-area #call-btn {
   background-color: #FFF;
-  color: rgb(177, 6, 230);
+  color: #b106e6;
   font-weight: bold;
   margin-left: 30px;
   font-size: 20px;
@@ -348,7 +219,7 @@ header, .navbar {
 .contact-box {
   padding-bottom: 50px;
   margin-bottom: 50px;
-  border-bottom: 1px solid rgb(177, 6, 230);
+  border-bottom: 1px solid #b106e6;
 }
 
 .contact-box i {
@@ -368,7 +239,7 @@ header, .navbar {
 
 .contact-tile {
   font-weight: bold;
-  color: rgb(177, 6, 230);
+  color: #b106e6;
 }
 
 #msg-box p {
@@ -386,7 +257,7 @@ header, .navbar {
 }
 
 #contact-form .main-btn:hover {
-  color: rgb(177, 6, 230);
+  color: #b106e6;
 }
 
 /* Copy */
@@ -410,7 +281,7 @@ header, .navbar {
 
 #copy-area .container a:hover {
   text-decoration: none;
-  color: rgb(177, 6, 230);
+  color: #b106e6;
 }
 
 /* Responsividade */
@@ -439,42 +310,8 @@ header, .navbar {
     left: 10%;
     right: 10%;
   }
-  
-  /* Sobre */
-  #about-area img {
-    margin-top: 100px;
-  }
-  
-  /* Data */
-  .circle-box div {
-    padding: 0 10px;
-  }
-  
-  /* Card */
-  .card-title {
-    font-size: 14px;
-  }
 
-  .card-text {
-    font-size: 12px;
-  }
-
-  /* Aplicar */
-  #apply-area .apply-box {
-    padding: 50px 25px;
-  }
-
-  /* Newsletter */
-  #news-area p {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #email-input {
-    width: 70%;
-  }
-
+  /* Novo Jogo */
   #call-area {
     margin-top: 30px;
   }
@@ -488,8 +325,8 @@ header, .navbar {
   }
 }
 
-
 @media(max-width: 425px) {
+  
   /* Slider */
   #mainSlider {
     margin-top: 90px;
@@ -508,29 +345,8 @@ header, .navbar {
     display: none;
   }
 
-  .carousel-caption .main-btn {
-    
+  .carousel-caption .main-btn {    
     font-size: 14px;
-  }
-
-  /* Sobre */
-  .main-title {
-    font-size: 30px;
-  }
-
-  #about-area img {
-    margin-top: 0;
-    margin-bottom: 30px;
-  }
-
-  /* Data */
-  .circle-box {
-    width: 50%;
-  }
-
-  #team-area .col-md-3 {
-    width: 50%;
-    margin-bottom: 30px;
   }
 
   /* Aplicar */
@@ -538,12 +354,8 @@ header, .navbar {
     height: auto;
   }
 
-  #company-img {
-    display: none;
-  }
-
   /* Filtro */
-  #formas-area .filter-btn {
+  #tipo-area .filter-btn {
     margin-bottom: 20px;
   }
 
@@ -551,17 +363,9 @@ header, .navbar {
     width: 50%;
   }
 
-  /* Newsletter */
+  /* Novo Jogo */
   #news-area .main-title {
     font-size: 24px;
-  }
-
-  #news-area p {
-    font-size: 16px;
-  }
-
-  #email-input {
-    width: 80%;
   }
 
   #call-area p, #call-area #call-btn {
@@ -572,11 +376,5 @@ header, .navbar {
   #call-area p, #call-area #call-btn {
     margin: 0;
     width: 50%;
-  }
-
-  /* Contato */
-  .contact-box {
-    border: none;
-    margin-bottom: 0;
   }
 }

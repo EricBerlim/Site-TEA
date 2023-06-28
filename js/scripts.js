@@ -1,12 +1,6 @@
 $( document ).ready(function() {
 
-  // Parallax
-  // setTimeout serve para carregar primeiro as imagens
-  setTimeout(function() {
-    $('#data-area').parallax({imageSrc: 'img/home.jpg'});
-  }, 200);
-
-  // Filtro Formas
+  // Filtro
   $('.filter-btn').on('click', function() {
 
     let type = $(this).attr('id');
@@ -15,12 +9,12 @@ $( document ).ready(function() {
     $('.main-btn').removeClass('active');
     $(this).addClass('active');
 
-    if(type == 'triangle-btn') {
-      eachBoxes('triangle', boxes);
-    } else if(type == 'circle-btn') {
-      eachBoxes('circle', boxes);
-    } else if(type == 'square-btn') {
-      eachBoxes('square', boxes);
+    if(type == 'um-btn') {
+      eachBoxes('um', boxes);
+    } else if(type == 'dois-btn') {
+      eachBoxes('dois', boxes);
+    } else if(type == 'tres-btn') {
+      eachBoxes('tres', boxes);
     } else {
       eachBoxes('all', boxes);
     }
@@ -41,15 +35,15 @@ $( document ).ready(function() {
     }
   }
 
-  // Scroll para as Seções
+  // Ir para as Seções
   let navBtn = $('.nav-item');
 
   let bannerSection = $('#mainSlider');
-  let aboutSection = $('#about-area');
-  let servicesSection = $('#services-area');
-  let teamSection = $('#team-area');
-  let portfolioSection = $('#portfolio-area');
-  let contactSection = $('#contact-area');
+  let coresSection = $('#tipo-area');
+  let alimentosSection = $('#tipo-area');
+  let animaisSection = $('#tipo-area');
+  let formasSection = $('#tipo-area');
+  let esportesSection = $('#tipo-area');
 
   let scrollTo = '';
 
@@ -58,15 +52,15 @@ $( document ).ready(function() {
     let btnId = $(this).attr('id');
 
     if(btnId == 'cores-menu') {
-      scrollTo = aboutSection;
-    } else if(btnId == 'services-menu') {
-      scrollTo = servicesSection;
-    } else if(btnId == 'team-menu') {
-      scrollTo = teamSection;
-    } else if(btnId == 'portfolio-menu') {
-      scrollTo = portfolioSection;
-    } else if(btnId == 'contact-menu') {
-      scrollTo = contactSection;
+      scrollTo = coresSection;
+    } else if(btnId == 'alimentos-menu') {
+      scrollTo = alimentosSection;
+    } else if(btnId == 'animais-menu') {
+      scrollTo = animaisSection;
+    } else if(btnId == 'formas-menu') {
+      scrollTo = formasSection;
+    } else if(btnId == 'esportes-menu') {
+      scrollTo = esportesSection;
     } else {
       scrollTo = bannerSection;
     }
@@ -75,5 +69,4 @@ $( document ).ready(function() {
         scrollTop: $(scrollTo).offset().top - 70
     }, 1500);
   });
-
 });
